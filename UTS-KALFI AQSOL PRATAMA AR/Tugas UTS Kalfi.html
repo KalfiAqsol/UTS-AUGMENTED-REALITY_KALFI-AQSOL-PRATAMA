@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rumah</title>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+
+    <a-sky color="#87CEEB" material="" geometry=""></a-sky>
+
+    <a-plane position="" rotation="-90 0 0" width="100" height="100" color="#C0C0C0" material="" geometry=""></a-plane>
+
+    <a-entity position="0 0.80439 0">
+
+      <a-box position="0 0.14602 0" width="25" height="2" depth="20" color="#CD853F" material="" geometry="">
+        <a-text value="Pondasi" align="center" position="0 0 10.37086" color="#FFFFFF" scale="4 4 4" text=""></a-text>
+      </a-box>
+
+      <a-box position="0 5.24621 0" width="20" height="8" depth="15" color="#B0E0E6" material="color: #ba6926" geometry="" scale="1 1.1 1">
+        <a-text value="Lantai Bawah" align="center" position="0 3.51197 7.52" color="#000000" scale="2.83 2.89 3.47" text="value: Dinding" rotation=""></a-text>
+      </a-box>
+
+      <a-box position="-4.73 13.62989 0" width="15" height="8" depth="10" color="#B0E0E6" material="color: #098500" geometry="" scale="0.7 1 1.5">
+        <a-text value="Lantai Atas" align="center" position="0 5.41613 5.8226" color="#000000" scale="4 4 4" text="value: Atap; color: #ffffff"></a-text>
+        <a-entity position="-7.5 1.50351 5.94898">
+          <a-box width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="" position="3.23 -1.13 -1.02" scale="1 2.01 1"></a-box>
+          <a-text value="Jendela" align="center" position="3.12 -1.19 -0.888" color="#000000" scale="4 4 4" text=""></a-text>
+        </a-entity>
+        <a-entity position="7.5 1.49712 6.38764">
+          <a-box width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="" position="-3.23 -1.13 -1.39" scale="1 2.01 1"></a-box>
+          <a-text value="Jendela" align="center" position="-3.12 -1.19 -1.238" color="#000000" scale="4 4 4" text=""></a-text>
+        </a-entity>
+      </a-box>
+
+      <a-entity position="0 26 0">
+
+        <a-box position="0 -10.77 0" width="25" height="5" depth="20" color="#CD5C5C" material="" geometry="" scale="0.82 0.09 0.66"></a-box>
+        <a-box position="-8.529 -6.629 0.271" width="25" height="5" depth="20" color="#CD5C5C" material="color: #13582b" geometry="" scale="0.44 0.09 -0.89" rotation="0 0 42"></a-box>
+        <a-box position="-1.079 -6.60883 0.27079" width="25" height="5" depth="20" color="#CD5C5C" material="color: #01600c" geometry="" scale="0.44 0.09 -0.89" rotation="0 0 -42"></a-box>
+
+        <a-triangle position="-4.8 -8.47 7.11628" color="#CD5C5C" vertex-a="-12.5 0 0" vertex-b="12.5 0 0" vertex-c="0 10 0" material="" geometry="" scale="0.43 0.49 0.00001"></a-triangle>
+      </a-entity>
+
+
+      <a-entity position="-7.5 8.5 7.5">
+        <a-box width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="" position="1.09 -3.15 0" scale="1.03 1.65 0.72"></a-box>
+        <a-text value="Jendela" align="center" position="0.9 -1.5 0.11232" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-entity>
+      <a-entity position="7.5 8.5 7.5">
+        <a-box width="3" height="3" depth="0.2" color="#808080" material="color: #ffffff" geometry="" position="-1.09 -3.15 0" scale="1.03 1.65 0.72"></a-box>
+        <a-text value="Jendela" align="center" position="-1.05 -1.5 0.11329" color="#000000" scale="4 4 4" text=""></a-text>
+      </a-entity>
+
+      <a-box width="6" height="10" depth="2" color="#8B0000" position="0 3.4652 6.59181" material="" geometry="" scale="0.78 0.75 0.98">
+        <a-text value="Pintu" align="center" position="0 3.2165 1.28649" color="#FFFFFF" scale="4 4 4" text="color: #000000"></a-text>
+      </a-box>
+
+      <!-- Objek Cylinder di Depan Rumah -->
+      <a-cylinder color="green" height="1" radius="0.5" position="7.79442 11.74807 5.568" material="" geometry="" scale="0.72 7.3 0.88"></a-cylinder><a-cylinder color="green" height="1" radius="0.5" position="7.79442 11.74807 -5.182" material="" geometry="" scale="0.72 7.3 0.88"></a-cylinder>
+
+      <a-entity position="0 5.50743 -10">
+        <a-text value="Pondasi" align="center" color="#FFFFFF" scale="3 3 3" text=""></a-text>
+      </a-entity>
+
+      <a-entity position="4.88363 12.1144 5.37203">
+        <a-text value="Nama: [Nama Anda]\nNPM: [Nomor NPM Anda]" align="center" color="#FFFFFF" scale="3 3 3" text="value: Kalfi Aqsol Pratama" position="-0.67 0 1.57"></a-text><a-text value="Nama: [Nama Anda]\nNPM: [Nomor NPM Anda]" align="center" color="#FFFFFF" scale="3 3 3" text="value: 2113025021" position="-0.67 -0.78 1.57"></a-text>
+      </a-entity>
+    </a-entity>
+
+    <a-entity camera="" position="3.410930611740426 11.209983658241192 25.772192138475663" rotation="-1.1459155902616225 22.459945569128234 0" look-controls="" wasd-controls="fly: true" data-aframe-inspector-original-camera=""></a-entity>
+  <div class="a-loader-title" style="display: none;">Rumah</div></a-scene>
+</body>
+</html>
